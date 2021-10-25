@@ -13,6 +13,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 5px;
 }
 nav .logo {
   background-color: rgba(255, 255, 255, 0.1);
@@ -22,9 +23,25 @@ nav .logo {
 }
 nav .logo h1 {
   font-size: 40px;
+  margin-bottom: 0px;
+  padding-top: 1px;
 }
 nav .logo p {
   font-size: 8px;
   font-family: cursive;
   padding-left: 2rem;
+}
+nav .links {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+nav .links a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+nav .links a:hover {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
