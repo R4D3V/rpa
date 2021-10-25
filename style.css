@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c3e;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .logo {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+nav .logo h1 {
+  font-size: 40px;
+}
+nav .logo p {
+  font-size: 8px;
+  font-family: cursive;
+  padding-left: 2rem;
+}/*# sourceMappingURL=style.css.map */
